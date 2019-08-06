@@ -13,16 +13,16 @@ int m3;
 
 
 void main()
-{printf("Enter your name");
+{printf("Enter your name:  ");
 scanf("%s",s1.name);
-printf("Enter your Usn");
+printf("Enter your Usn:  ");
 scanf("%s",s1.USN);
-printf("Enter your m1,m2,m3");
+printf("Enter your m1,m2,m3:  ");
 scanf("%d,%d,%d",&s1.m.m1,&s1.m.m2,&s1.m.m3);
 printf("Student info:\n");
 printf("Name:%s \n",s1.name);
 printf("USN: %s \n",s1.USN);
-printf("Marks: m1=%d\nm2=%d\nm3=%d",&s1.m.m1,&s1.m.m2,&s1.m.m3);
+printf("Marks: m1=%d\nm2=%d\nm3=%d",s1.m.m1,s1.m.m2,s1.m.m3);
 printf("Total marks=%d",(s1.m.m1+s1.m.m2+s1.m.m3));
 getch();
 clrscr();
